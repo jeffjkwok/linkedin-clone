@@ -37,7 +37,7 @@ function Header() {
         <HeaderOption Icon={ChatIcon} title="Messaging" />
         <HeaderOption Icon={NotificationIcon} title="Notifications" />
         {user && (
-          <HeaderOption title="Me" onClick={logoutOfApp} avatar={true} />
+          <HeaderOption title="Me" onClick={logoutOfApp} avatar={true}/>
         )}
       </div>
     </div>

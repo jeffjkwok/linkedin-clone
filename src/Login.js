@@ -24,10 +24,12 @@ function Login() {
       .then((userCredential) => {
         dispatch(
           login({
-            emaili: userCredential.user.email,
+            email: userCredential.user.email,
             uid: userCredential.user.uid,
             displayName: userCredential.user.displayName,
-            photoUrl: userCredential.user.photoURL,
+            photoUrl: userCredential.user.photoURL
+              ? userCredential.user.photoUrl
+              : "",
           })
         );
       })
