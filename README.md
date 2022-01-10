@@ -1,3 +1,6 @@
+## LinkedIn Clone
+Using React, Redux, Firebase I created a clone of LinkedIn for refresher purposes.
+
 ![demo](https://github.com/jeffjkwok/linkedin-clone/blob/master/demo.gif)
 
 
