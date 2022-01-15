@@ -40,7 +40,6 @@ function Feed() {
   const sendPost = (e) => {
     e.preventDefault();
 
-    console.log(user)
     addDoc(collection(db, "posts"), {
       name: user.displayName,
       description: user.email,

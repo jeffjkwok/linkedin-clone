@@ -1,5 +1,5 @@
 ## LinkedIn Clone
-Using React, Redux, Firebase I created a clone of LinkedIn for refresher purposes.
+Using React, Redux, Firebase I created a clone of LinkedIn for refresher purposes. Used Firebase Authentication to login and register using email and password. Firebase was also used to store the posts in the database to be retrieved on different accounts. Redux was used to manage the state of the user.
 
 ![demo](https://github.com/jeffjkwok/linkedin-clone/blob/master/demo.gif)
 
